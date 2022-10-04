@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">SingSang</string>
+    <string name="werDa">Wer singt da?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bartgeier_1320_0">Altvogel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="FamilienNamen">
+        <item>Nothing selected</item>
+        <item>Ammern</item>
+        <item>Austernfischer</item>
+        <item>Baumläufer</item>
+        <item>Beutelmeisen</item>
+        <item>Bienenfresser</item>
+        <item>Braunellen</item>
+        <item>Drosselvögel</item>
+        <item>Eisvögel</item>
+        <item>Entenvögel</item>
+        <item>Falken</item>
+        <item>Finkenvögel</item>
+        <item>Fischadler</item>
+        <item>Fliegenschnäpper</item>
+        <item>Glattfusshühner</item>
+        <item>Habichtartige</item>
+        <item>Kleiber</item>
+        <item>Kormorane</item>
+        <item>Kraniche</item>
+        <item>Kuckucke</item>
+        <item>Lappentaucher</item>
+        <item>Lerchen</item>
+        <item>Löffler</item>
+        <item>Mauerläufer</item>
+        <item>Meisen</item>
+        <item>Möwen</item>
+        <item>Nachtschwalben</item>
+        <item>Ohreulen und Käuze</item>
+        <item>Pieper und Stelzen</item>
+        <item>Pirole</item>
+        <item>Rabenvögel</item>
+        <item>Racken</item>
+        <item>Rallen</item>
+        <item>Raubmöwen</item>
+        <item>Raufusshühner</item>
+        <item>Regenpfeifer</item>
+        <item>Reiher</item>
+        <item>Schleiereulen</item>
+        <item>Schnepfen</item>
+        <item>Schwalben</item>
+        <item>Schwanzmeisen</item>
+        <item>Seeschwalben</item>
+        <item>Seetaucher</item>
+        <item>Segler</item>
+        <item>Seidenschwänze</item>
+        <item>Spechte</item>
+        <item>Sperlinge</item>
+        <item>Starenvögel</item>
+        <item>Stelzenläufer und Säbelschnäbler</item>
+        <item>Störche</item>
+        <item>Tauben</item>
+        <item>Timalien</item>
+        <item>Triele</item>
+        <item>Wasseramseln</item>
+        <item>Wiedehopfe</item>
+        <item>Würger</item>
+        <item>Zaunkönige</item>
+        <item>Zweigsänger</item>
+    </string-array>
+
+</resources>

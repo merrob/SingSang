@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/hoeren"
+        android:name="com.example.singsang.Hoeren"
+        android:label="fragment_hoeren"
+        tools:layout="@layout/fragment_hoeren" >
+        <action
+            android:id="@+id/action_hoeren_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ueben"
+        android:name="com.example.singsang.Ueben"
+        android:label="fragment_ueben"
+        tools:layout="@layout/fragment_ueben" >
+        <action
+            android:id="@+id/action_ueben_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.singsang.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_ueben"
+            app:destination="@id/ueben" />
+        <action
+            android:id="@+id/action_blankFragment_to_hoeren"
+            app:destination="@id/hoeren" />
+        <action
+            android:id="@+id/action_blankFragment_to_sehen"
+            app:destination="@id/sehen" />
+    </fragment>
+    <fragment
+        android:id="@+id/sehen"
+        android:name="com.example.singsang.Sehen"
+        android:label="fragment_sehen"
+        tools:layout="@layout/fragment_sehen" >
+        <action
+            android:id="@+id/action_sehen_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+</navigation>
